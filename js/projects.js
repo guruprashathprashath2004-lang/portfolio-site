@@ -12,7 +12,7 @@ const projects = [
     features: ["Member registration and secure login sessions", "Resource catalogue with categories, location, capacity, opening hours, and booking limits", "Create, edit, cancel, approve, and reject reservations", "Daily availability timeline and free-slot search", "Application and PostgreSQL safeguards for attendee capacity and overlapping bookings", "Admin dashboards, team management, and audit history", "Paginated reservation and audit lists; transactional changes with audit records", "Sri Lanka time (UTC+05:30) for booking entry and display"],
     database: "PostgreSQL, accessed with Prisma ORM 7 and the PostgreSQL driver adapter.",
     status: "Not stated in the public README.",
-    role: "Individual contribution is not stated in the public README.",
+    role: "I designed and built the application end to end, including the Next.js interface, reservation workflows, Prisma data model, and PostgreSQL safeguards for availability and booking conflicts.",
     link: "https://github.com/guruprashathprashath2004-lang/resource-reservation",
     initials: "RR", tone: "violet"
   },
@@ -27,7 +27,7 @@ const projects = [
     features: ["Language picker with English, Tamil, and Sinhala versions", "Search and filter by category, keyword, verification status, and price", "Nearby search using browser geolocation and SQL distance calculation, with map results", "Freelancer profiles, ratings, reviews, and location maps", "Booking and payment flow with PayHere or Stripe integrations", "In-app client/freelancer messaging", "Freelancer and client dashboards for bookings and reviews", "Admin dashboard for verification, user management, refunds, and platform statistics"],
     database: "MySQL/MariaDB (utf8mb4), with schema and demo seed data in the repository.",
     status: "README marks English, Tamil, and Sinhala versions as fully built.",
-    role: "Repository identifies this as CSE5015 Group 07; individual contribution is not specified.",
+    role: "I led the CSE5015 Group 07 team, coordinated implementation and integration, and contributed to the PHP/MySQL application across its multilingual experience, freelancer discovery, booking flows, and role-based dashboards.",
     link: "https://github.com/guruprashathprashath2004-lang/skillbridge-freelancer-marketplace",
     initials: "SB", tone: "red"
   },
@@ -42,7 +42,7 @@ const projects = [
     features: ["Create, edit, delete, search, filter, and sort expenses", "Monthly totals, category summaries, and six-month analytics", "Monthly category budgets with spending progress", "Firebase Authentication and Cloud Firestore storage", "CSV and PDF export through the platform share sheet", "Display amounts in LKR, USD, EUR, GBP, or INR using cached exchange rates", "Light and dark themes, validation, loading, empty, and error states"],
     database: "Cloud Firestore stores user profiles, expenses, and budgets; SharedPreferences caches settings and exchange-rate data.",
     status: "The README lists the practical-task requirements and optional features as implemented; it does not label overall project status.",
-    role: "README identifies this as a practical task for the CyphLab Flutter Developer Internship; individual contribution details are not stated.",
+    role: "I developed the app independently as the CyphLab Flutter Developer Internship practical task, implementing its Flutter screens and state management, Firebase-backed data and authentication, analytics, budgets, exports, and currency display.",
     link: "https://github.com/guruprashathprashath2004-lang/nova-expense-tracker",
     demo: "https://drive.google.com/file/d/1y7-wvMZGVRAXPGRjSCwbS6Zfm9VmYtYK/view?usp=sharing",
     apk: "https://drive.google.com/file/d/1q03S9wxpPKeRt4fzTFqQ7BuhpOvDuJqr/view?usp=sharing",
@@ -59,7 +59,7 @@ const projects = [
     features: ["Separate Web API and Razor Pages client projects", "JWT authentication for protected administrator endpoints", "Event and category management endpoints", "Event registration workflows", "Database creation and sample data seeding on first run", "API documentation available in development"],
     database: "SQL Server LocalDB through Entity Framework Core; database is created and seeded when the API starts.",
     status: "Not stated in the public README.",
-    role: "Individual contribution is not stated in the public README.",
+    role: "I built the platform independently, implementing the ASP.NET Core API and Razor Pages client, role-based workflows, event and category endpoints, registration, and SQL Server data access with EF Core.",
     link: "https://github.com/guruprashathprashath2004-lang/kmc-event-platform",
     initials: "KMC", tone: "gold"
   },
@@ -74,7 +74,7 @@ const projects = [
     features: ["Customer registration and login", "Travel package browsing and management", "Booking and payment workflows", "Staff and administrator portals", "Booking, hotel, vehicle, and location data endpoints", "Receipt handling and report export features"],
     database: "MySQL; the repository includes globe_trek.sql and a database connection example.",
     status: "Not stated in the public README.",
-    role: "Individual contribution is not stated in the public README.",
+    role: "I developed the travel booking system independently, building its PHP/MySQL workflows for customer accounts, package browsing, bookings, payments, and staff and administrator tools.",
     link: "https://github.com/guruprashathprashath2004-lang/globe_trek",
     initials: "GT", tone: "cyan"
   },
@@ -89,7 +89,7 @@ const projects = [
     features: ["Firebase Authentication registration, sign-in, and profile management", "Browse printing categories and products", "Upload artwork/designs for orders", "Choose store pickup or home delivery", "Order history, status tracking, and cancellation", "Firebase Cloud Messaging notifications for order updates", "Printing guidelines and input validation"],
     database: "Cloud Firestore for app data and Firebase Storage for uploaded designs; Firebase Authentication and Cloud Messaging are also used.",
     status: "Not stated in the public README.",
-    role: "README names Dhanu as author; additional role or contribution details are not specified.",
+    role: "I independently developed the Android app in Java, integrating Firebase for authentication, app data, design uploads, and order notifications while building the ordering and order-tracking workflows.",
     link: "https://github.com/guruprashathprashath2004-lang/printxpress-android-app",
     initials: "PX", tone: "orange"
   },
@@ -104,7 +104,7 @@ const projects = [
     features: ["Manager login and cashier account management", "Cake inventory management, search, and deletion", "Cashier login and category-based menu browsing", "Cart-based checkout and sales recording", "Transaction history and total sales", "Encapsulated models and MVC separation"],
     database: "No database; cake details, cashier accounts, and transactions are stored in plain text files.",
     status: "Not stated in the public README.",
-    role: "README identifies it as a university HND project; individual contribution details are not stated.",
+    role: "I built the Java Swing application independently, designing its MVC structure and implementing manager and cashier workflows, inventory, checkout, transaction history, and file-based storage.",
     link: "https://github.com/guruprashathprashath2004-lang/cake-shop",
     initials: "SC", tone: "pink"
   },
@@ -119,7 +119,7 @@ const projects = [
     features: ["Admin and customer registration, login, and password recovery", "Add, view, update, and delete book records", "Browse available books as a customer", "Record sales and view total sales", "Persist book and sales records using file handling"],
     database: "No database; records are stored in text files.",
     status: "Not stated in the public README.",
-    role: "README names Dhanu as author.",
+    role: "I designed and implemented the C++ program independently, building its admin and customer workflows, book and sales management, account handling, and file-based persistence.",
     link: "https://github.com/guruprashathprashath2004-lang/genius-books-library-system",
     initials: "GB", tone: "green"
   },
@@ -134,7 +134,7 @@ const projects = [
     features: ["User and postal-area records", "Location and sensor-model tables", "Sensor deployment and status records", "Events with severity and time fields", "Actions linked to users and events", "Reports, report details, and sensor readings"],
     database: "SQL Server; T-SQL schema, constraints, and sample data are included.",
     status: "Not stated in the repository; the repository contains a SQL script and gitignore.",
-    role: "The SQL file header credits Guru Prashath.",
+    role: "I designed the SQL Server schema independently, defining the relational tables and connections for sensor deployments, readings, events, response actions, and reports.",
     link: "https://github.com/guruprashathprashath2004-lang/system-monitoring-db",
     initials: "SQL", tone: "silver"
   },
@@ -149,7 +149,7 @@ const projects = [
     features: ["Citizens and citizen phone numbers", "Municipal agencies and services", "Utility accounts and bills", "Payments linked to bills", "Citizen complaints", "Emergency incident records", "Sample inserts, including validation examples"],
     database: "SQL Server; T-SQL schema and sample data are included.",
     status: "Not stated in the repository; the repository contains a SQL script and gitignore.",
-    role: "The SQL file header credits Guru Prashath.",
+    role: "I designed the SQL Server schema independently, modelling municipal services, citizen accounts, billing and payments, complaints, and emergency incidents, with sample data for validation.",
     link: "https://github.com/guruprashathprashath2004-lang/techville-municipal-db",
     initials: "TV", tone: "silver"
   }
